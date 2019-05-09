@@ -1,0 +1,8 @@
+dist/
+node_modules/
+config.txt
+*.zip
+*.log
+logs
+.next/
+.eslintcache

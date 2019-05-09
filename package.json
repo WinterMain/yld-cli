@@ -1,0 +1,33 @@
+{
+  "name": "yld-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool design by YLD",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aiyld/yld-cli.git"
+  },
+  "keywords": [
+    "CLI"
+  ],
+  "author": "YLD <aiyld@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aiyld/yld-cli/issues"
+  },
+  "homepage": "https://github.com/aiyld/yld-cli#readme",
+  "devDependencies": {
+    "chalk": "^2.4.2",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.20.0",
+    "download-git-repo": "^1.1.0",
+    "ora": "^3.4.0"
+  }
+}
