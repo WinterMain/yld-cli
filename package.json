@@ -1,6 +1,6 @@
 {
   "name": "yld-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A CLI tool design by YLD",
   "main": "index.js",
   "directories": {
@@ -9,7 +9,8 @@
   "scripts": {
     "init": "node index.js init",
     "list": "node index.js list",
-    "help": "node index.js help"
+    "help": "node index.js help",
+    "ylc-cli": "node index.js"
   },
   "repository": {
     "type": "git",
