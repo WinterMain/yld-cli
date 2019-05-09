@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 let program = require('commander');
 let package = require('./package.json');
 let init = require('./bin/init');

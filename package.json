@@ -1,10 +1,13 @@
 {
   "name": "yld-cli",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "A CLI tool design by YLD",
   "main": "index.js",
   "directories": {
     "lib": "lib"
+  },
+  "bin": {
+    "yld-cli": "./index.js"
   },
   "scripts": {
     "init": "node index.js init",
@@ -25,7 +28,8 @@
     "url": "https://github.com/aiyld/yld-cli/issues"
   },
   "homepage": "https://github.com/aiyld/yld-cli#readme",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "chalk": "^2.4.2",
     "co": "^4.6.0",
     "co-prompt": "^1.0.0",
