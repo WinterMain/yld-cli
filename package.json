@@ -1,16 +1,15 @@
 {
   "name": "yld-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI tool design by YLD",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "bin": {
-    "yld": "index.js"
+    "init": "node index.js init",
+    "list": "node index.js list",
+    "help": "node index.js help"
   },
   "repository": {
     "type": "git",

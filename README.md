@@ -10,4 +10,4 @@ yld-cli init my-project
 
 Init template:
 
-- [x]  yld-cli: React + nextjs + i18n + less + redux + router + eslint + axios full framework
+- [x]  react-next-framework: React + nextjs + i18n + less + redux + router + eslint + axios full framework
