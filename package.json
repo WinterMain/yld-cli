@@ -7,7 +7,8 @@
     "lib": "lib"
   },
   "bin": {
-    "yld-cli": "./index.js"
+    "yld-cli": "./index.js",
+    "yld": "./index.js"
   },
   "scripts": {
     "init": "node index.js init",
