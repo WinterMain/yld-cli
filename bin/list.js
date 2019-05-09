@@ -10,6 +10,6 @@ module.exports = function () {
             '  ' + chalk.gray(temp.desc));
     };
     if (!templates.list || templates.list.length == 0) {
-        console.log(chalk.yellow('当前无可用模板'))
+        console.log(chalk.yellow('No available template'))
     }
 }
