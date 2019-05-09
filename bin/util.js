@@ -15,14 +15,10 @@ function copyDirSync (srcPath, targetPath) {
   paths.forEach(function (path) {
     var _src = srcPath + '/' + path;
     var _dst = targetPath + '/' + path;
-    var readable;
-    var writable;
     var st = fs.statSync(_src);
 
     if (st.isFile()) {
-      readable = fs.createReadStream(_src); //创建读取流
-      writable = fs.createWriteStream(_dst); //创建写入流
-      readable.pipe(writable);
+      fs.writeFileSync(_dst, fs.readFileSync(_src));
     } else if (st.isDirectory()) {
       exists(_dst);
       copyDirSync(_src, _dst);
