@@ -14,6 +14,6 @@ npm install -g yld-cli
 yld-cli init <my-project-name>
 ```
 
-Init template:
+Create project base on template:
 
-- [x]  react-next-framework: React + nextjs + i18n + less + redux + router + eslint + axios full framework
+- [x]  [react-next-framework](https://github.com/aiyld/react-next-framework): React + NextJs + i18n + Less + Redux + Router + Eslint + Axios + Bootstrap full framework

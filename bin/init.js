@@ -68,7 +68,7 @@ function downloadTemplates(path, projectName) {
   let spanner = ora("Initializing......");
   spanner.start();
   if (fs.existsSync('download')) {
-    //刪除原文件
+    // Delete the old folder
     fs.rmdirSync('download');
   }
   download(path, __dirname + '/download', function (err) {

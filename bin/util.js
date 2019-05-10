@@ -1,7 +1,7 @@
 const fs = require("fs")
 
 function exists (dst) {
-  //测试某个路径下文件是否存在
+  // Check if the folder is exist.
   var status = fs.existsSync(dst);
   if (!status) {
     fs.mkdirSync(dst);
